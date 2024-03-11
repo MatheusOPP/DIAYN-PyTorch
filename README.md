@@ -1,5 +1,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
 
+Personal fork of DIAYN-PyTorch to use on a project in university. For the original repository please check: https://github.com/alirezakazemipour/DIAYN-PyTorch
+
 # DIAYN-PyTorch
 
 While intelligent  creatures can explore their environments and learn useful skills without supervision, many RL algorithms are heavily on the basis that acquiring skills is only achieved via defining them as explicit reward functions to learn.
