@@ -67,7 +67,7 @@ Reward distribution|Reward distribution|Reward distribution
 
 ## Dependencies
 - gym == 0.17.3
-- mujoco-py == 2.0.2.13
+- mujoco-py == 2.0.2.5
 - numpy == 1.19.2
 - opencv_contrib_python == 4.4.0.44
 - psutil == 5.5.1
