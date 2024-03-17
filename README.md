@@ -27,9 +27,9 @@ Concurrently to learn r<sub>z</sub>(s, a), any conventional RL method can be uti
 ### Hopper
 >number of skills = 20
 
-similar to the environment's goal| Emergent behavior| Emergent behavior
+similar to the environment's goal| similar to the environment's goal | Similar to an alternate goal
 :-----------------------:|:-----------------------:|:-----------------------:
-![](Gifs/Hopper/skill8.gif)| ![](Gifs/Hopper/skill2.gif)| ![](Gifs/Hopper/skill9.gif)
+![](Gifs/Hopper/skill7.gif)| ![](Gifs/Hopper/skill8.gif)| ![](Gifs/Hopper/skill9.gif)
 
 ### BipedalWalker
 >number of skills = 50
