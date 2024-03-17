@@ -36,7 +36,7 @@ similar to the environment's goal| Emergent behavior| Emergent behavior
 
 similar to the environment's goal| Emergent behavior| Emergent behavior
 :-----------------------:|:-----------------------:|:-----------------------:
-![](Gifs/BipedalWalker/skill11.gif)| ![](Gifs/BipedalWalker/skill7.gif)| ![](Gifs/BipedalWalker/skill40.gif)
+![](Gifs/BipedalWalker/skill11.gif)| ![](Gifs/BipedalWalker/skill12.gif)| ![](Gifs/BipedalWalker/skill40.gif)
 
 
 ### MountainCarContinuous
