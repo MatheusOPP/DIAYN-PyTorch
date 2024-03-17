@@ -27,20 +27,12 @@ Concurrently to learn r<sub>z</sub>(s, a), any conventional RL method can be uti
 ### Hopper
 >number of skills = 20
 
-<p align="center">
-  <img src="Results/Hopper/running_logq.png">
-</p>
-
 similar to the environment's goal| Emergent behavior| Emergent behavior
 :-----------------------:|:-----------------------:|:-----------------------:
 ![](Gifs/Hopper/skill8.gif)| ![](Gifs/Hopper/skill2.gif)| ![](Gifs/Hopper/skill9.gif)
 
 ### BipedalWalker
 >number of skills = 50
-
-<p align="center">
-  <img src="Results/BipedalWalker/running_logq.png">
-</p>
 
 similar to the environment's goal| Emergent behavior| Emergent behavior
 :-----------------------:|:-----------------------:|:-----------------------:
@@ -49,10 +41,6 @@ similar to the environment's goal| Emergent behavior| Emergent behavior
 
 ### MountainCarContinuous
 >number of skills = 20
-
-<p align="center">
-  <img src="Results/MountainCar/running_logq.png">
-</p>
 
 similar to the environment's goal| Emergent behavior| Emergent behavior
 :-----------------------:|:-----------------------:|:-----------------------:
