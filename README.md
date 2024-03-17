@@ -1,5 +1,3 @@
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
-
 Personal fork of DIAYN-PyTorch to use on a project in university. For the original repository please check: https://github.com/alirezakazemipour/DIAYN-PyTorch
 
 # DIAYN-PyTorch
@@ -66,14 +64,20 @@ Reward distribution|Reward distribution|Reward distribution
 ![](Results/MountainCar/skill3.png)| ![](Results/MountainCar/skill7.png)| ![](Results/MountainCar/skill8.png)
 
 ## Dependencies
+- tensorboard == 2.16.2
+- cffi == 1.16.0
+- Cython == 0.29.37
+- imageio==2.34.0
 - gym == 0.17.3
 - mujoco-py == 2.0.2.5
-- numpy == 1.19.2
-- opencv_contrib_python == 4.4.0.44
-- psutil == 5.5.1
-- torch == 1.6.0
-- tqdm == 4.50.0
-
+- numpy == 1.26.4
+- opencv_contrib_python == 4.9.0.80
+- psutil == 5.9.8
+- torch == 1.13.0
+- tqdm == 4.66.2
+- patchelf == 0.17.2.1
+- lockfile == 0.12.2
+- box2d-py == 2.3.8
 ## Installation
 ```bash
 pip3 install -r requirements.txt
@@ -102,11 +106,13 @@ optional arguments:
   --reward_scale REWARD_SCALE   The reward scaling factor introduced in SAC.
   --seed SEED           The randomness' seed for torch, numpy, random & gym[env].
 ```
-- **In order to train the agent with default arguments , execute the following command and use `--do_train` flag, otherwise the agent would be tested** (You may change the memory capacity, the environment and number of skills to learn based on your desire.):
+- **In order to train the agent with default arguments, execute the following command and use `--do_train` flag, otherwise the agent would be tested** (You may change the memory capacity, the environment and number of skills to learn based on your desire.):
 ```shell
 python3 main.py --mem_size=1000000 --env_name="Hopper-v3" --interval=100 --do_train --n_skills=20
 ```
-- **If you want to keep training your previous run, execute the followoing:**
+You may change ``Hopper-v3`` to other environments such as ``BipedalWalker-v3`` and ``MountainCarcontinuous-v0``, as well as other arguments such as the number of skills to learn freely.
+
+- **If you want to keep training your previous run, execute the following:**
 ```shell
 python3 main.py --mem_size=1000000 --env_name="Hopper-v3" --interval=100 --do_train --n_skills=20 --train_from_scratch
 ```
@@ -117,7 +123,6 @@ python3 main.py --mem_size=1000000 --env_name="Hopper-v3" --interval=100 --do_tr
 - [x] Hopper-v3
 - [x] bipedalWalker-v3
 - [x] MountainCarContinuous-v0
-- [ ] HalfCheetah-v3 
 
 ## Structure
 ```bash
