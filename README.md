@@ -34,8 +34,6 @@ Concurrently to learn r<sub>z</sub>(s, a), any conventional RL method can be uti
 similar to the environment's goal| Emergent behavior| Emergent behavior
 :-----------------------:|:-----------------------:|:-----------------------:
 ![](Gifs/Hopper/skill8.gif)| ![](Gifs/Hopper/skill2.gif)| ![](Gifs/Hopper/skill9.gif)
-Reward distribution|Reward distribution|Reward distribution
-![](Results/Hopper/skill8.png)| ![](Results/Hopper/skill2.png)| ![](Results/Hopper/skill9.png)
 
 ### BipedalWalker
 >number of skills = 50
@@ -47,8 +45,7 @@ Reward distribution|Reward distribution|Reward distribution
 similar to the environment's goal| Emergent behavior| Emergent behavior
 :-----------------------:|:-----------------------:|:-----------------------:
 ![](Gifs/BipedalWalker/skill11.gif)| ![](Gifs/BipedalWalker/skill7.gif)| ![](Gifs/BipedalWalker/skill40.gif)
-Reward distribution|Reward distribution|Reward distribution
-![](Results/BipedalWalker/skill11.png)| ![](Results/BipedalWalker/skill7.png)| ![](Results/BipedalWalker/skill40.png)
+
 
 ### MountainCarContinuous
 >number of skills = 20
@@ -60,8 +57,7 @@ Reward distribution|Reward distribution|Reward distribution
 similar to the environment's goal| Emergent behavior| Emergent behavior
 :-----------------------:|:-----------------------:|:-----------------------:
 ![](Gifs/MountainCar/skill3.gif)| ![](Gifs/MountainCar/skill7.gif)| ![](Gifs/MountainCar/skill8.gif)
-Reward distribution|Reward distribution|Reward distribution
-![](Results/MountainCar/skill3.png)| ![](Results/MountainCar/skill7.png)| ![](Results/MountainCar/skill8.png)
+
 
 ## Dependencies
 - tensorboard == 2.16.2
